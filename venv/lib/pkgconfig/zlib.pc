@@ -1,0 +1,13 @@
+prefix=/Users/arun/Desktop/Chevric_Assignment/NLP2SQL/venv
+exec_prefix=/Users/arun/Desktop/Chevric_Assignment/NLP2SQL/venv
+libdir=/Users/arun/Desktop/Chevric_Assignment/NLP2SQL/venv/lib
+sharedlibdir=/Users/arun/Desktop/Chevric_Assignment/NLP2SQL/venv/lib
+includedir=/Users/arun/Desktop/Chevric_Assignment/NLP2SQL/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
